@@ -8,5 +8,8 @@ unsigned int tobin(unsigned int n10)
 	
 	/*Write your code down here*/	
 
-	return -1;
+	if (n10 / 2 == 0) {
+		return 1;//MSB
+	}
+	return n10 % 2 + 10 * tobin(n10 / 2);
 }

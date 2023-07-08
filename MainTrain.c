@@ -32,33 +32,33 @@ int main()
 
        
 	// 2
-    ////test1
-    //unsigned int res = tobin(6);
+    //test1
+    unsigned int res = tobin(6);
 
-    //if (count1 < 2)
-    //    printf("tobin function is not recursive (-8)\n");
-    //else {
-    //    if (res != 110)
-    //        printf("tobin function is wrong for train2_1  (-8)\n");
-    //}
-    ////test2
-    //res = tobin(9);
+    if (count1 < 2)
+        printf("tobin function is not recursive (-8)\n");
+    else {
+        if (res != 110)
+            printf("tobin function is wrong for train2_1  (-8)\n");
+    }
+    //test2
+    res = tobin(9);
 
-    //if (count1 < 2)
-    //    printf("tobin function is not recursive (-8)\n");
-    //else {
-    //    if (res != 1001)
-    //        printf("tobin function is wrong for train2_2  (-8)\n");
-    //}
-    ////test3
-    //res = tobin(15);
+    if (count1 < 2)
+        printf("tobin function is not recursive (-8)\n");
+    else {
+        if (res != 1001)
+            printf("tobin function is wrong for train2_2  (-8)\n");
+    }
+    //test3
+    res = tobin(15);
 
-    //if (count1 < 2)
-    //    printf("tobin function is not recursive (-9)\n");
-    //else {
-    //    if (res != 1111)
-    //        printf("tobin function is wrong for train2_3  (-9)\n");
-    //}
+    if (count1 < 2)
+        printf("tobin function is not recursive (-9)\n");
+    else {
+        if (res != 1111)
+            printf("tobin function is wrong for train2_3  (-9)\n");
+    }
 
 
 
